@@ -40,7 +40,7 @@ startDate.send_keys("01/04/2012")
 # Enter End date
 endDate = driver.find_element_by_id("MainContent_SearchParent1_SearchByDocType1_StartEndDate1_toDate")
 endDate.clear()
-endDate.send_keys("5/3/2021")
+endDate.send_keys("12/31/2021")
 
 
 # Check box DEED
@@ -142,9 +142,4 @@ while(True):
     time.sleep(2)
 
 
-
-
-time.sleep(50)
-
-driver.quit() 
 
